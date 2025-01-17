@@ -77,32 +77,23 @@ Following are the libraries used in the code:
 
 
 ## Setup Instructions
-
-1. **Clone the Repository**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/car-data-scraper.git
-   cd car-data-scraper
+   git clone https://github.com/gpaudel10/py_scrapping.git
+   cd py_scrapping
    ```
 
-2. **Install Dependencies**:
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configure the Application**:
-   - Edit `config.py` to specify platform details for sharing data (e.g., database or file storage system).
-   - Add virtual server scheduling configurations.
-
-4. **Run the Application**:
+4. **Run script**:
    ```bash
    python main.py
    ```
 
-5. **Set Up Daily Execution**:
-   - Use a task scheduler like `cron` on Linux or Task Scheduler on Windows.
-   - Example cron job:
-     ```bash
-     0 2 * * * /path/to/python /path/to/car-data-scraper/main.py
-     ```
+5. **Set Up daily execution**:
+   - use cron job
 
 ---
